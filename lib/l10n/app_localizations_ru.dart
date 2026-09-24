@@ -2844,7 +2844,8 @@ class AppLocalizationsRu extends AppLocalizations {
   String get importRoutines => 'Импорт тренировок';
 
   @override
-  String get importPasteHint => 'Вставь сюда тренировку: отправленную из AcademiaApp, ответ ИИ, JSON или CSV.';
+  String get importPasteHint =>
+      'Вставь сюда тренировку: отправленную из AcademiaApp, ответ ИИ, JSON или CSV.';
 
   @override
   String get pasteAction => 'Вставить';

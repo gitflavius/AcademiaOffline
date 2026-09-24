@@ -2801,7 +2801,8 @@ class AppLocalizationsPt extends AppLocalizations {
   String get nothingToImport => 'Não há nada aqui que o AcademiaApp possa importar';
 
   @override
-  String get aiStepCopy => 'Copie o pedido. Ele leva sua lista de exercícios e o formato que o AcademiaApp lê.';
+  String get aiStepCopy =>
+      'Copie o pedido. Ele leva sua lista de exercícios e o formato que o AcademiaApp lê.';
 
   @override
   String get aiStepAsk =>

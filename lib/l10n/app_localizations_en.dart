@@ -2764,7 +2764,8 @@ class AppLocalizationsEn extends AppLocalizations {
   String get importRoutines => 'Import routines';
 
   @override
-  String get importPasteHint => 'Paste a routine here: one shared from AcademiaApp, an AI answer, JSON or CSV.';
+  String get importPasteHint =>
+      'Paste a routine here: one shared from AcademiaApp, an AI answer, JSON or CSV.';
 
   @override
   String get pasteAction => 'Paste';
@@ -2799,7 +2800,8 @@ class AppLocalizationsEn extends AppLocalizations {
   String get nothingToImport => 'Nothing here AcademiaApp can import';
 
   @override
-  String get aiStepCopy => 'Copy the request. It carries your exercise list and the format AcademiaApp reads.';
+  String get aiStepCopy =>
+      'Copy the request. It carries your exercise list and the format AcademiaApp reads.';
 
   @override
   String get aiStepAsk => 'Paste it into any AI and say what you want: days per week, goal, how many weeks.';

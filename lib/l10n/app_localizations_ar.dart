@@ -2751,7 +2751,8 @@ class AppLocalizationsAr extends AppLocalizations {
   String get importRoutines => 'استيراد روتينات';
 
   @override
-  String get importPasteHint => 'الصق روتينًا هنا: مشارك من AcademiaApp أو رد من ذكاء اصطناعي أو JSON أو CSV.';
+  String get importPasteHint =>
+      'الصق روتينًا هنا: مشارك من AcademiaApp أو رد من ذكاء اصطناعي أو JSON أو CSV.';
 
   @override
   String get pasteAction => 'لصق';
