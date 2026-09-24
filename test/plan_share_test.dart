@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:gymmane/services/plan_share.dart';
-import 'package:gymmane/state/fit_state.dart';
+import 'package:AcademiaApp/services/plan_share.dart';
+import 'package:AcademiaApp/state/fit_state.dart';
 
 void main() {
   group('lectura del JSON', () {
@@ -64,7 +64,7 @@ void main() {
 
   test('la lista para la IA lleva cabecera y ejercicios', () {
     final text = fit.planRequestText();
-    expect(text.contains('GymMane'), isTrue);
+    expect(text.contains('AcademiaApp'), isTrue);
     expect(text.contains('Barbell Bench Press'), isTrue);
     expect(text.split('\n').length, greaterThan(50));
   });

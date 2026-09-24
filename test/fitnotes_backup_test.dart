@@ -1,10 +1,10 @@
 import 'dart:io';
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:gymmane/services/fitnotes_backup.dart';
-import 'package:gymmane/services/sqlite_reader.dart';
-import 'package:gymmane/services/workout_import.dart';
-import 'package:gymmane/state/fit_state.dart';
+import 'package:AcademiaApp/services/fitnotes_backup.dart';
+import 'package:AcademiaApp/services/sqlite_reader.dart';
+import 'package:AcademiaApp/services/workout_import.dart';
+import 'package:AcademiaApp/state/fit_state.dart';
 
 void main() {
   final file = File('test/fixtures/import/fitnotes_backup.fitnotes');

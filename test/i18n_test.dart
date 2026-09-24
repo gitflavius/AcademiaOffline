@@ -3,12 +3,12 @@ import 'dart:io';
 import 'dart:ui' show PlatformDispatcher;
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:gymmane/catalog/exercise_catalog.dart';
-import 'package:gymmane/l10n/catalog_es.dart';
-import 'package:gymmane/l10n/l10n.dart';
-import 'package:gymmane/models/exercise.dart';
-import 'package:gymmane/services/local_store.dart';
-import 'package:gymmane/state/fit_state.dart';
+import 'package:AcademiaApp/catalog/exercise_catalog.dart';
+import 'package:AcademiaApp/l10n/catalog_es.dart';
+import 'package:AcademiaApp/l10n/l10n.dart';
+import 'package:AcademiaApp/models/exercise.dart';
+import 'package:AcademiaApp/services/local_store.dart';
+import 'package:AcademiaApp/state/fit_state.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 void main() {
@@ -289,7 +289,7 @@ void main() {
 
     bool looksLikeUi(String t) => RegExp(r'^[A-Z]').hasMatch(t) || t.contains(' ');
 
-    const allowed = {'GymMane', 'GYMMANE', 'GYM · MANE', 'M', 'F', 'kg', 'lb', 'cm', 'EN', 'ES'};
+    const allowed = {'AcademiaApp', 'AcademiaApp', 'GYM · MANE', 'M', 'F', 'kg', 'lb', 'cm', 'EN', 'ES'};
 
     final offenders = <String>[];
 

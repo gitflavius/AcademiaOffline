@@ -10,8 +10,8 @@ import '../widgets/ui_kit.dart';
 class LiveWorkout {
   LiveWorkout._();
 
-  static const _channel = MethodChannel('gymmane/live_activity');
-  static const _android = MethodChannel('gymmane/live');
+  static const _channel = MethodChannel('AcademiaApp/live_activity');
+  static const _android = MethodChannel('AcademiaApp/live');
   static bool _listening = false;
 
   static String _lastKey = '';
@@ -58,7 +58,7 @@ class LiveWorkout {
     final restEnd = paused ? null : s.restEndsAt;
     final resting = restEnd != null && s.restRemaining != null;
 
-    final name = ex == null ? 'GymMane' : t.catalogName(ex.id, ex.name);
+    final name = ex == null ? 'AcademiaApp' : t.catalogName(ex.id, ex.name);
     String detail;
     if (paused) {
       detail = titleCase(t.paused);

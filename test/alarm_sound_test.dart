@@ -2,10 +2,10 @@ import 'dart:io';
 
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:gymmane/services/alarm_store.dart';
-import 'package:gymmane/services/local_store.dart';
-import 'package:gymmane/services/rest_alarm.dart';
-import 'package:gymmane/state/fit_state.dart';
+import 'package:AcademiaApp/services/alarm_store.dart';
+import 'package:AcademiaApp/services/local_store.dart';
+import 'package:AcademiaApp/services/rest_alarm.dart';
+import 'package:AcademiaApp/state/fit_state.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 void main() {

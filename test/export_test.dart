@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:gymmane/models/workout.dart';
-import 'package:gymmane/services/local_store.dart';
+import 'package:AcademiaApp/models/workout.dart';
+import 'package:AcademiaApp/services/local_store.dart';
 
 LoggedSession _session(DateTime date, String name, List<LoggedSet> sets) =>
     LoggedSession(date, 1800, [LoggedExercise('x1', name, 'chest', sets)]);

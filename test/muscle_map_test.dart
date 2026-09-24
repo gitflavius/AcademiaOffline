@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:gymmane/models/workout.dart';
-import 'package:gymmane/state/fit_state.dart';
+import 'package:AcademiaApp/models/workout.dart';
+import 'package:AcademiaApp/state/fit_state.dart';
 
 void main() {
   LoggedSession session(int daysAgo, String exId, String primary, int sets) => LoggedSession(

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:gymmane/app/gymmane_app.dart';
-import 'package:gymmane/state/fit_state.dart';
+import 'package:AcademiaApp/app/gymmane_app.dart';
+import 'package:AcademiaApp/state/fit_state.dart';
 import 'package:phosphoricons_flutter/phosphoricons_flutter.dart';
 
 void main() {

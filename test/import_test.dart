@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:gymmane/services/workout_import.dart';
-import 'package:gymmane/state/fit_state.dart';
+import 'package:AcademiaApp/services/workout_import.dart';
+import 'package:AcademiaApp/state/fit_state.dart';
 
 const _hevy = '''
 "title","start_time","end_time","description","exercise_title","superset_id","exercise_notes","set_index","set_type","weight_kg","reps","distance_km","duration_seconds","rpe"
@@ -102,7 +102,7 @@ void main() {
       expect(detectFormat(_strongPlain), ImportFormat.strong);
       expect(detectFormat(_fitnotesPlain), ImportFormat.fitnotes);
       expect(detectFormat(_fitnotesUnits), ImportFormat.fitnotes);
-      expect(detectFormat(_gymmane), ImportFormat.gymmane);
+      expect(detectFormat(_gymmane), ImportFormat.AcademiaApp);
       expect(detectFormat('a,b,c\n1,2,3'), ImportFormat.unknown);
       expect(detectFormat(_generic), ImportFormat.generic);
       expect(detectFormat(_genericDe), ImportFormat.generic);
@@ -189,7 +189,7 @@ void main() {
       expect(r.sessions.single.exercises.single.sets.single.weightKg, 100);
     });
 
-    test('GymMane propio', () {
+    test('AcademiaApp propio', () {
       final r = parseImport(_gymmane);
       expect(r.sessions.single.exercises.single.sets.single.weightKg, 60);
     });
@@ -225,7 +225,7 @@ void main() {
       expect(r.weights.single.kg, closeTo(81.65, 0.05));
     });
 
-    test('no confunde un backup de GymMane con uno de openGym', () {
+    test('no confunde un backup de AcademiaApp con uno de openGym', () {
       expect(detectFormat('{"sessions": [], "routines": []}'), ImportFormat.unknown);
     });
   });

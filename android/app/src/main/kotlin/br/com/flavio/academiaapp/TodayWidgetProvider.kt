@@ -1,4 +1,4 @@
-package com.gymmane.app
+package br.com.flavio.academiaapp
 
 import android.appwidget.AppWidgetManager
 import android.content.Context

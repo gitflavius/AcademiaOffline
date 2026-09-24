@@ -1,14 +1,14 @@
 import 'dart:convert';
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:gymmane/models/exercise.dart';
-import 'package:gymmane/models/live_session.dart';
-import 'package:gymmane/models/workout.dart';
-import 'package:gymmane/services/local_store.dart';
-import 'package:gymmane/services/plan_share.dart';
-import 'package:gymmane/services/rest_alarm.dart';
-import 'package:gymmane/services/workout_import.dart';
-import 'package:gymmane/state/fit_state.dart';
+import 'package:AcademiaApp/models/exercise.dart';
+import 'package:AcademiaApp/models/live_session.dart';
+import 'package:AcademiaApp/models/workout.dart';
+import 'package:AcademiaApp/services/local_store.dart';
+import 'package:AcademiaApp/services/plan_share.dart';
+import 'package:AcademiaApp/services/rest_alarm.dart';
+import 'package:AcademiaApp/services/workout_import.dart';
+import 'package:AcademiaApp/state/fit_state.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 void main() {
@@ -330,7 +330,7 @@ void main() {
       fit.setPlannedSets(r.id, bench, const [PlannedSet(reps: 8, weightKg: 50)]);
       fit.assignRoutineToDay(3, r.id);
       final json = fit.exportPlanJson([r]);
-      expect(jsonDecode(json)['gymmane'], 'plan');
+      expect(jsonDecode(json)['AcademiaApp'], 'plan');
       expect(fit.planSummaryText([r]), contains('Mixed'));
 
       fit.resetAllData();

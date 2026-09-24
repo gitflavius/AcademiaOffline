@@ -1,7 +1,7 @@
 import 'package:flutter/services.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:gymmane/services/rest_alarm.dart';
+import 'package:AcademiaApp/services/rest_alarm.dart';
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();

@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:gymmane/app/gymmane_app.dart';
-import 'package:gymmane/state/fit_state.dart';
+import 'package:AcademiaApp/app/gymmane_app.dart';
+import 'package:AcademiaApp/state/fit_state.dart';
 
 void main() {
   testWidgets('selecting a muscle updates the Train screen immediately', (tester) async {

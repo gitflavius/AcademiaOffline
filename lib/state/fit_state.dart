@@ -617,7 +617,7 @@ class FitState extends FitCore
   String planRequestText() {
     final here = allExercises.where(fitsHere).toList();
     final lines = <String>[
-      'GymMane · ${activePlace?.name ?? t.placeAll}',
+      'AcademiaApp · ${activePlace?.name ?? t.placeAll}',
       t.planIntro,
       t.planFormat,
       planTemplate,
@@ -755,7 +755,7 @@ class FitState extends FitCore
 
   String exportPlanJson(List<Routine> list, {bool withSchedule = true}) {
     return encodePlan({
-      'gymmane': 'plan',
+      'AcademiaApp': 'plan',
       'v': 1,
       'unit': 'kg',
       'routines': [

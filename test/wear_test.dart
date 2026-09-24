@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:gymmane/catalog/program_templates.dart';
-import 'package:gymmane/l10n/l10n.dart';
-import 'package:gymmane/state/fit_state.dart';
-import 'package:gymmane/wear/wear_app.dart';
-import 'package:gymmane/wear/wear_shell.dart';
-import 'package:gymmane/widgets/ui_kit.dart' show sentenceCase;
+import 'package:AcademiaApp/catalog/program_templates.dart';
+import 'package:AcademiaApp/l10n/l10n.dart';
+import 'package:AcademiaApp/state/fit_state.dart';
+import 'package:AcademiaApp/wear/wear_app.dart';
+import 'package:AcademiaApp/wear/wear_shell.dart';
+import 'package:AcademiaApp/widgets/ui_kit.dart' show sentenceCase;
 
 void _reset() {
   fit.saveAndExit();

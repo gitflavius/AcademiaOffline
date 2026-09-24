@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:gymmane/l10n/l10n.dart';
-import 'package:gymmane/models/note.dart';
-import 'package:gymmane/screens/notes_screen.dart';
-import 'package:gymmane/services/local_store.dart';
-import 'package:gymmane/state/fit_state.dart';
-import 'package:gymmane/theme/app_theme.dart';
+import 'package:AcademiaApp/l10n/l10n.dart';
+import 'package:AcademiaApp/models/note.dart';
+import 'package:AcademiaApp/screens/notes_screen.dart';
+import 'package:AcademiaApp/services/local_store.dart';
+import 'package:AcademiaApp/state/fit_state.dart';
+import 'package:AcademiaApp/theme/app_theme.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 Widget _host(Widget Function() screen) => MaterialApp(

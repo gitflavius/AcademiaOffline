@@ -2678,14 +2678,14 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String shareMessage(String name) {
-    return '$name — GymMane でファイルを開いて追加してください。';
+    return '$name — AcademiaApp でファイルを開いて追加してください。';
   }
 
   @override
   String get importRoutines => 'ルーティンを読み込む';
 
   @override
-  String get importPasteHint => 'ここにルーティンを貼り付け：GymMane から共有されたもの、AIの回答、JSON、CSV。';
+  String get importPasteHint => 'ここにルーティンを貼り付け：AcademiaApp から共有されたもの、AIの回答、JSON、CSV。';
 
   @override
   String get pasteAction => '貼り付け';
@@ -2712,10 +2712,10 @@ class AppLocalizationsJa extends AppLocalizations {
   }
 
   @override
-  String get nothingToImport => 'GymMane が読み込めるものがありません';
+  String get nothingToImport => 'AcademiaApp が読み込めるものがありません';
 
   @override
-  String get aiStepCopy => '依頼文をコピーします。あなたの種目リストと GymMane が読む形式が入っています。';
+  String get aiStepCopy => '依頼文をコピーします。あなたの種目リストと AcademiaApp が読む形式が入っています。';
 
   @override
   String get aiStepAsk => '好きなAIに貼り付けて、希望を伝えましょう：週の日数、目標、何週間か。';
@@ -2854,7 +2854,7 @@ class AppLocalizationsJa extends AppLocalizations {
   String get shareIntroTitle => 'このルーティンを共有';
 
   @override
-  String get shareIntroBody => 'パートナーや友だち、家族に送りましょう。GymMane で開ける小さなファイルが届き、セットや重量ごとワンタップで追加できます。';
+  String get shareIntroBody => 'パートナーや友だち、家族に送りましょう。AcademiaApp で開ける小さなファイルが届き、セットや重量ごとワンタップで追加できます。';
 
   @override
   String get removedFromRoutine => 'ルーティンから外しました';

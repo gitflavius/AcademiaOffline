@@ -1,12 +1,12 @@
 <div align="center">
 
-<img src="../screenshots/banner-es.png" alt="GymMane — Levanta. Anota. Mejora." width="860" />
+<img src="../screenshots/banner-es.png" alt="AcademiaApp — Levanta. Anota. Mejora." width="860" />
 
 <br/>
 
-<img src="../screenshots/icon.png" width="94" alt="GymMane" />
+<img src="../screenshots/icon.png" width="94" alt="AcademiaApp" />
 
-# GymMane
+# AcademiaApp
 
 Un diario de gimnasio gratis y sin conexión para Android.<br/>
 Toca los músculos que quieres entrenar, apunta tus series y mira cómo suben tus números.
@@ -17,22 +17,22 @@ Toca los músculos que quieres entrenar, apunta tus series y mira cómo suben tu
   <img alt="Android 7.0+" src="https://img.shields.io/badge/Android-7.0%2B-3DDC84?style=flat&logo=android&logoColor=white" />
   <img alt="License GPLv3" src="https://img.shields.io/badge/Code-GPLv3-C2410C?style=flat&logo=gnu&logoColor=white" />
   <img alt="Art CC BY-SA 4.0" src="https://img.shields.io/badge/Art-CC%20BY--SA%204.0-8A6B41?style=flat&logo=creativecommons&logoColor=white" />
-  <a href="https://github.com/InlitX/GymMane/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/InlitX/GymMane?style=flat&color=D9A184&labelColor=181717&logo=github" /></a>
+  <a href="https://github.com/InlitX/AcademiaApp/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/InlitX/AcademiaApp?style=flat&color=D9A184&labelColor=181717&logo=github" /></a>
 </p>
 
 <p>
   <a href="https://trendshift.io/repositories/107197?utm_source=trendshift-badge&amp;utm_medium=badge&amp;utm_campaign=badge-trendshift-107197" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/trendshift/repositories/107197/daily?language=Dart" alt="InlitX%2FGymMane | Trendshift" width="250" height="55"/></a>
 </p>
 
-<a href="https://f-droid.org/packages/com.gymmane.app/"><img alt="Get it on F-Droid" src="../badges/get-it-on-fdroid.png" height="60" /></a>
+<a href="https://f-droid.org/packages/com.AcademiaApp.app/"><img alt="Get it on F-Droid" src="../badges/get-it-on-fdroid.png" height="60" /></a>
 &nbsp;
-<a href="https://apt.izzysoft.de/fdroid/index/apk/com.gymmane.app?repo=main"><img alt="Get it on IzzyOnDroid" src="../badges/get-it-on-izzyondroid.png" height="60" /></a>
+<a href="https://apt.izzysoft.de/fdroid/index/apk/com.AcademiaApp.app?repo=main"><img alt="Get it on IzzyOnDroid" src="../badges/get-it-on-izzyondroid.png" height="60" /></a>
 &nbsp;
-<a href="https://www.openapk.net/gymmane/com.gymmane.app/"><img alt="Get it on OpenAPK" src="../badges/get-it-on-openapk.png" height="60" /></a>
+<a href="https://www.openapk.net/AcademiaApp/com.AcademiaApp.app/"><img alt="Get it on OpenAPK" src="../badges/get-it-on-openapk.png" height="60" /></a>
 &nbsp;
-<a href="https://github.com/InlitX/GymMane/releases"><img alt="Get it on GitHub" src="../badges/get-it-on-github.png" height="60" /></a>
+<a href="https://github.com/InlitX/AcademiaApp/releases"><img alt="Get it on GitHub" src="../badges/get-it-on-github.png" height="60" /></a>
 &nbsp;
-<a href="https://apps.obtainium.imranr.dev/redirect?r=obtainium://app/%7B%22id%22%3A%22com.gymmane.app%22%2C%22url%22%3A%22https%3A%2F%2Fgithub.com%2FInlitX%2FGymMane%22%2C%22author%22%3A%22InlitX%22%2C%22name%22%3A%22GymMane%22%2C%22preferredApkIndex%22%3A0%2C%22additionalSettings%22%3A%22%7B%5C%22includePrereleases%5C%22%3Afalse%2C%5C%22fallbackToOlderReleases%5C%22%3Atrue%2C%5C%22filterReleaseTitlesByRegEx%5C%22%3A%5C%22%5C%22%2C%5C%22filterReleaseNotesByRegEx%5C%22%3A%5C%22%5C%22%2C%5C%22verifyLatestTag%5C%22%3Afalse%2C%5C%22dontSortReleasesList%5C%22%3Afalse%2C%5C%22useLatestAssetDateAsReleaseDate%5C%22%3Afalse%2C%5C%22trackOnly%5C%22%3Afalse%2C%5C%22versionExtractionRegEx%5C%22%3A%5C%22%5C%22%2C%5C%22matchGroupToUse%5C%22%3A%5C%22%5C%22%2C%5C%22versionDetection%5C%22%3Atrue%2C%5C%22releaseDateAsVersion%5C%22%3Afalse%2C%5C%22useVersionCodeAsOSVersion%5C%22%3Afalse%2C%5C%22apkFilterRegEx%5C%22%3A%5C%22%5C%22%2C%5C%22invertAPKFilter%5C%22%3Afalse%2C%5C%22autoApkFilterByArch%5C%22%3Atrue%2C%5C%22appName%5C%22%3A%5C%22%5C%22%2C%5C%22shizukuPretendToBeGooglePlay%5C%22%3Afalse%2C%5C%22allowInsecure%5C%22%3Afalse%2C%5C%22exemptFromBackgroundUpdates%5C%22%3Afalse%2C%5C%22skipUpdateNotifications%5C%22%3Afalse%2C%5C%22about%5C%22%3A%5C%22GymMane%20is%20an%20open%20source%20gym%20log%20for%20Android.%20Pick%20your%20muscles%20on%20a%20body%20map%2C%20log%20your%20sets%2C%20and%20watch%20your%20numbers%20grow.%20No%20accounts%2C%20no%20ads%2C%20no%20tracking%2C%20no%20internet%20permission.%5C%22%7D%22%2C%22overrideSource%22%3Anull%7D"><img alt="Get it on Obtainium" src="../badges/get-it-on-obtainium.png" height="60" /></a>
+<a href="https://apps.obtainium.imranr.dev/redirect?r=obtainium://app/%7B%22id%22%3A%22com.AcademiaApp.app%22%2C%22url%22%3A%22https%3A%2F%2Fgithub.com%2FInlitX%2FGymMane%22%2C%22author%22%3A%22InlitX%22%2C%22name%22%3A%22GymMane%22%2C%22preferredApkIndex%22%3A0%2C%22additionalSettings%22%3A%22%7B%5C%22includePrereleases%5C%22%3Afalse%2C%5C%22fallbackToOlderReleases%5C%22%3Atrue%2C%5C%22filterReleaseTitlesByRegEx%5C%22%3A%5C%22%5C%22%2C%5C%22filterReleaseNotesByRegEx%5C%22%3A%5C%22%5C%22%2C%5C%22verifyLatestTag%5C%22%3Afalse%2C%5C%22dontSortReleasesList%5C%22%3Afalse%2C%5C%22useLatestAssetDateAsReleaseDate%5C%22%3Afalse%2C%5C%22trackOnly%5C%22%3Afalse%2C%5C%22versionExtractionRegEx%5C%22%3A%5C%22%5C%22%2C%5C%22matchGroupToUse%5C%22%3A%5C%22%5C%22%2C%5C%22versionDetection%5C%22%3Atrue%2C%5C%22releaseDateAsVersion%5C%22%3Afalse%2C%5C%22useVersionCodeAsOSVersion%5C%22%3Afalse%2C%5C%22apkFilterRegEx%5C%22%3A%5C%22%5C%22%2C%5C%22invertAPKFilter%5C%22%3Afalse%2C%5C%22autoApkFilterByArch%5C%22%3Atrue%2C%5C%22appName%5C%22%3A%5C%22%5C%22%2C%5C%22shizukuPretendToBeGooglePlay%5C%22%3Afalse%2C%5C%22allowInsecure%5C%22%3Afalse%2C%5C%22exemptFromBackgroundUpdates%5C%22%3Afalse%2C%5C%22skipUpdateNotifications%5C%22%3Afalse%2C%5C%22about%5C%22%3A%5C%22GymMane%20is%20an%20open%20source%20gym%20log%20for%20Android.%20Pick%20your%20muscles%20on%20a%20body%20map%2C%20log%20your%20sets%2C%20and%20watch%20your%20numbers%20grow.%20No%20accounts%2C%20no%20ads%2C%20no%20tracking%2C%20no%20internet%20permission.%5C%22%7D%22%2C%22overrideSource%22%3Anull%7D"><img alt="Get it on Obtainium" src="../badges/get-it-on-obtainium.png" height="60" /></a>
 
 <sub><a href="../../README.md">English</a> · <b>Español</b> · <a href="README.it.md">Italiano</a> · <a href="README.zh.md">简体中文</a></sub>
 
@@ -147,7 +147,7 @@ Toca los músculos que quieres entrenar, apunta tus series y mira cómo suben tu
 ## Descarga
 
 Descárgala desde F-Droid, IzzyOnDroid, OpenAPK, Obtainium o las
-[releases de GitHub](https://github.com/InlitX/GymMane/releases/latest). En GitHub, si no
+[releases de GitHub](https://github.com/InlitX/AcademiaApp/releases/latest). En GitHub, si no
 sabes qué APK elegir, coge el `arm64-v8a`.
 
 | Plataforma | Estado |
@@ -159,7 +159,7 @@ sabes qué APK elegir, coge el `arm64-v8a`.
 
 ## Privacidad
 
-Sin cuenta, sin anuncios y sin analítica. GymMane ni siquiera tiene permiso de
+Sin cuenta, sin anuncios y sin analítica. AcademiaApp ni siquiera tiene permiso de
 internet, así que tus entrenos se quedan en tu móvil. Los permisos que pide son
 para el temporizador de descanso, su notificación y los widgets.
 
@@ -170,15 +170,15 @@ algo grande, abre antes una incidencia. Las traducciones son ficheros de texto
 en [lib/l10n](../../lib/l10n), y **TRANSLATING.md** explica cómo añadir una.
 
 ```bash
-git clone https://github.com/InlitX/GymMane.git
-cd GymMane
+git clone https://github.com/InlitX/AcademiaApp.git
+cd AcademiaApp
 flutter pub get
 flutter build apk --release
 ```
 
 ## Apoyo
 
-GymMane es gratis y lo seguirá siendo. Una estrella, una traducción o un buen
+AcademiaApp es gratis y lo seguirá siendo. Una estrella, una traducción o un buen
 reporte de fallo ayudan mucho. Si quieres invitarme a un café:
 
 <div align="center">
@@ -218,8 +218,8 @@ Font License. **CREDITS.md** tiene los detalles.
 
 <a href="https://www.star-history.com/?repos=inlitx%2Fgymmane&type=date&legend=top-left">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=inlitx/gymmane&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=inlitx/gymmane&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=inlitx/gymmane&type=date&legend=top-left" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=inlitx/AcademiaApp&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=inlitx/AcademiaApp&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=inlitx/AcademiaApp&type=date&legend=top-left" />
  </picture>
 </a>

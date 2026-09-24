@@ -7,6 +7,7 @@ import 'package:phosphoricons_flutter/phosphoricons_flutter.dart';
 import 'package:share_plus/share_plus.dart';
 
 import '../l10n/l10n.dart';
+import '../services/pdf_plan.dart';
 import '../services/plan_share.dart';
 import '../state/fit_state.dart';
 import '../theme/app_colors.dart';
@@ -77,6 +78,8 @@ class _AiPlanScreenState extends State<AiPlanScreen> {
             PrimaryButton(label: t.copyForAi, onTap: _copy),
             const SizedBox(height: 10),
             GhostButton(label: t.shareAsFile, icon: PhosphorIconsRegular.shareNetwork, onTap: _export),
+            const SizedBox(height: 10),
+            GhostButton(label: 'Importar treino em PDF', icon: PhosphorIconsRegular.filePdf, onTap: _pdf),
             const SizedBox(height: 24),
             TextField(
               controller: _answer,
@@ -222,11 +225,11 @@ class _AiPlanScreenState extends State<AiPlanScreen> {
   Future<void> _export() async {
     try {
       final dir = await getTemporaryDirectory();
-      final file = File('${dir.path}/gymmane-exercises.txt');
+      final file = File('${dir.path}/AcademiaApp-exercises.txt');
       await file.writeAsString(fit.planRequestText());
       if (!mounted) return;
       await SharePlus.instance.share(
-        ShareParams(files: [XFile(file.path)], subject: 'GymMane exercises'),
+        ShareParams(files: [XFile(file.path)], subject: 'AcademiaApp exercises'),
       );
     } catch (_) {}
   }
@@ -242,6 +245,12 @@ class _AiPlanScreenState extends State<AiPlanScreen> {
     final text = await pickTextFile();
     if (text == null || !mounted) return;
     setState(() => _answer.text = text);
+  }
+
+  Future<void> _pdf() async {
+    final json = await pickPdfPlanJson();
+    if (json == null || !mounted) return;
+    setState(() => _answer.text = json);
   }
 
   void _import() {

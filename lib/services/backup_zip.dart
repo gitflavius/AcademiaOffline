@@ -11,7 +11,7 @@ import '../state/fit_state.dart';
 import 'alarm_store.dart';
 import 'media_store.dart';
 
-const String kBackupJsonEntry = 'gymmane.json';
+const String kBackupJsonEntry = 'AcademiaApp.json';
 const String _imagesDir = 'media/images';
 const String _videosDir = 'media/videos';
 const String _notesDir = 'media/notes';

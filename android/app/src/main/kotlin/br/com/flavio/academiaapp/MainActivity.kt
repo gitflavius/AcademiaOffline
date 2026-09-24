@@ -1,4 +1,4 @@
-package com.gymmane.app
+package br.com.flavio.academiaapp
 
 import android.content.ContentValues
 import android.content.Context
@@ -29,7 +29,7 @@ class MainActivity : FlutterActivity() {
         super.configureFlutterEngine(flutterEngine)
         val messenger = flutterEngine.dartExecutor.binaryMessenger
 
-        MethodChannel(messenger, "gymmane/haptics").setMethodCallHandler { call, result ->
+        MethodChannel(messenger, "AcademiaApp/haptics").setMethodCallHandler { call, result ->
             if (call.method != "buzz") {
                 result.notImplemented()
                 return@setMethodCallHandler
@@ -38,7 +38,7 @@ class MainActivity : FlutterActivity() {
             result.success(null)
         }
 
-        val incoming = MethodChannel(messenger, "gymmane/incoming")
+        val incoming = MethodChannel(messenger, "AcademiaApp/incoming")
         incoming.setMethodCallHandler { call, result ->
             if (call.method != "take") {
                 result.notImplemented()
@@ -48,13 +48,13 @@ class MainActivity : FlutterActivity() {
         }
         incomingChannel = incoming
 
-        MethodChannel(messenger, "gymmane/gallery").setMethodCallHandler { call, result ->
+        MethodChannel(messenger, "AcademiaApp/gallery").setMethodCallHandler { call, result ->
             if (call.method != "savePng") {
                 result.notImplemented()
                 return@setMethodCallHandler
             }
             val bytes = call.argument<ByteArray>("bytes")
-            val name = call.argument<String>("name") ?: "gymmane.png"
+            val name = call.argument<String>("name") ?: "AcademiaApp.png"
             if (bytes == null) {
                 result.error("no-bytes", "missing image", null)
                 return@setMethodCallHandler
@@ -66,7 +66,7 @@ class MainActivity : FlutterActivity() {
             }
         }
 
-        MethodChannel(messenger, "gymmane/screen").setMethodCallHandler { call, result ->
+        MethodChannel(messenger, "AcademiaApp/screen").setMethodCallHandler { call, result ->
             val on = call.argument<Boolean>("on") ?: false
             when (call.method) {
                 "keepOn" -> {
@@ -88,9 +88,9 @@ class MainActivity : FlutterActivity() {
             }
         }
 
-        rotaryChannel = MethodChannel(messenger, "gymmane/rotary")
+        rotaryChannel = MethodChannel(messenger, "AcademiaApp/rotary")
 
-        val live = MethodChannel(messenger, "gymmane/live")
+        val live = MethodChannel(messenger, "AcademiaApp/live")
         live.setMethodCallHandler { call, result ->
             when (call.method) {
                 "update" -> {
@@ -107,7 +107,7 @@ class MainActivity : FlutterActivity() {
         }
         LiveNotifier.dart = live
 
-        MethodChannel(messenger, "gymmane/device").setMethodCallHandler { call, result ->
+        MethodChannel(messenger, "AcademiaApp/device").setMethodCallHandler { call, result ->
             if (call.method != "isWatch") {
                 result.notImplemented()
                 return@setMethodCallHandler
@@ -197,7 +197,7 @@ class MainActivity : FlutterActivity() {
             val values = ContentValues().apply {
                 put(MediaStore.Images.Media.DISPLAY_NAME, name)
                 put(MediaStore.Images.Media.MIME_TYPE, "image/png")
-                put(MediaStore.Images.Media.RELATIVE_PATH, "${Environment.DIRECTORY_PICTURES}/GymMane")
+                put(MediaStore.Images.Media.RELATIVE_PATH, "${Environment.DIRECTORY_PICTURES}/AcademiaApp")
                 put(MediaStore.Images.Media.IS_PENDING, 1)
             }
             val resolver = contentResolver
@@ -212,7 +212,7 @@ class MainActivity : FlutterActivity() {
 
         val dir = File(
             Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES),
-            "GymMane",
+            "AcademiaApp",
         )
         if (!dir.exists() && !dir.mkdirs()) return false
         val file = File(dir, name)

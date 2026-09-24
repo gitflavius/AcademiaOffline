@@ -15,7 +15,7 @@ if (keystorePropertiesFile.exists()) {
 }
 
 android {
-    namespace = "com.gymmane.app"
+    namespace = "br.com.flavio.academiaapp"
     compileSdk = 36
     ndkVersion = flutter.ndkVersion
 
@@ -30,7 +30,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.gymmane.app"
+        applicationId = "br.com.flavio.academiaapp"
         minSdk = 24
         targetSdk = 36
         versionCode = flutter.versionCode

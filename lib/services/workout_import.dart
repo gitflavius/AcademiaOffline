@@ -12,7 +12,7 @@ enum ImportFormat {
   lyfta,
   fitbod,
   fitnotes,
-  gymmane,
+  AcademiaApp,
   openGym,
   generic,
   hevyWeights,
@@ -150,7 +150,7 @@ const _formats = <ImportFormat, _Fmt>{
     weightPlain: ['weight'],
     muscle: ['category'],
   ),
-  ImportFormat.gymmane: _Fmt(
+  ImportFormat.AcademiaApp: _Fmt(
     date: ['date'],
     exercise: ['exercise'],
     reps: ['reps'],
@@ -204,7 +204,7 @@ ImportFormat detectFormat(String csv) {
     return ImportFormat.fitbod;
   }
   if (cols.contains('weight_kg') && (cols.contains('est_1rm_kg') || cols.contains('volume_kg'))) {
-    return ImportFormat.gymmane;
+    return ImportFormat.AcademiaApp;
   }
   if (cols.contains('exercise') && cols.contains('category') && _pick(cols, _anyWeight) != null) {
     return ImportFormat.fitnotes;

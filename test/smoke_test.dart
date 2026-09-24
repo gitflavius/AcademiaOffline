@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:gymmane/app/gymmane_app.dart';
-import 'package:gymmane/l10n/l10n.dart';
-import 'package:gymmane/models/workout.dart';
-import 'package:gymmane/state/fit_state.dart';
-import 'package:gymmane/theme/app_colors.dart';
-import 'package:gymmane/theme/app_theme.dart';
-import 'package:gymmane/widgets/share_cards.dart';
+import 'package:AcademiaApp/app/gymmane_app.dart';
+import 'package:AcademiaApp/l10n/l10n.dart';
+import 'package:AcademiaApp/models/workout.dart';
+import 'package:AcademiaApp/state/fit_state.dart';
+import 'package:AcademiaApp/theme/app_colors.dart';
+import 'package:AcademiaApp/theme/app_theme.dart';
+import 'package:AcademiaApp/widgets/share_cards.dart';
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();

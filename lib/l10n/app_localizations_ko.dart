@@ -1309,7 +1309,7 @@ class AppLocalizationsKo extends AppLocalizations {
   }
 
   @override
-  String get aboutGymmane => 'GymMane 정보';
+  String get aboutGymmane => 'AcademiaApp 정보';
 
   @override
   String get yourProfile => '내 프로필';

@@ -15,7 +15,7 @@ class RestAlarm {
   static final RestAlarm instance = RestAlarm._();
 
   static const _id = 1001;
-  static const _haptics = MethodChannel('gymmane/haptics');
+  static const _haptics = MethodChannel('AcademiaApp/haptics');
   static final _pattern = Int64List.fromList([0, 350, 180, 350, 180, 600]);
 
   String style = 'loud';
